@@ -11,7 +11,7 @@ prefer to just drop this in `app/analyzers` in your codebase and prepend it to t
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'activestorage-exif-analyzer'
+gem 'activestorage-exif-analyzer', require: "active_storage/exif/analyzer"
 ```
 
 And then execute:
