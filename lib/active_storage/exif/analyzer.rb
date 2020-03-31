@@ -17,4 +17,4 @@ module ActiveStorage
   end
 end
 
-require "active_storage/exif/railtie" if defined?(Rails)
+require 'active_storage/exif/railtie' if defined?(Rails)

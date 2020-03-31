@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module ActiveStorage
   module Exif
     class Railtie < Rails::Railtie
@@ -5,4 +7,3 @@ module ActiveStorage
     end
   end
 end
-
