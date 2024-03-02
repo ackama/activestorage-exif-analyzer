@@ -16,10 +16,8 @@ jobs:
     - name: Set up Ruby 2.7
       uses: ruby/setup-ruby@v1
       with:
-        bundler: '2.4.22'
         ruby-version: '2.7'
     - name: Build and test with Rake
       run: |
-        gem install bundler
         bundle install --jobs 4 --retry 3
         bundle exec rake
